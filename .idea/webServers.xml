@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="969bae17-db71-4d8c-8f62-d9cf88ce2a88" name="Hauptdomain" url="http://bollingerr.students.bzz.ch">
+        <fileTransfer accessType="FTPS" host="bollingerr.students.bzz.ch" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e5be2981-4861-4991-930f-6bd0388ddd33" name="Live Test" url="http://testbollingerr.students.bzz.ch">
+        <fileTransfer accessType="FTPS" host="testbollingerr.students.bzz.ch" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
